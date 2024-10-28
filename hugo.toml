@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'blog.tormod.dev/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'ananke'
+theme = 'hugo-whisper-theme'
