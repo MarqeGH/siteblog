@@ -1,7 +1,7 @@
 baseURL = "/"
-theme = "hugo-whisper-theme"
+theme = "hugo-book"
 languageCode = "en-us"
-title = "Hugo Whisper Theme"
+title = "Hugo Book Theme"
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
@@ -38,9 +38,9 @@ summaryLength = 30
 
   [params.homepage_meta_tags]
     meta_description = "Hugo Whisper is a documentation theme built with Hugo."
-    meta_og_title = "Hugo Whisper Theme"
+    meta_og_title = "Hugo Book Theme"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-whisper.netlify.app"
+    meta_og_url = "https://hugo-book-demo.netlify.app/"
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
     meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
     meta_twitter_card = "summary"
