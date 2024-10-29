@@ -1,4 +1,4 @@
 baseURL = 'blog.tormod.dev/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'hugo-whisper-theme'
+theme = 'hugo-book'
