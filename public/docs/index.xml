@@ -6,14 +6,6 @@
     <description>Recent content in Docs on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Feb 2019 19:30:08 +1000</lastBuildDate>
     <atom:link href="//localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Configuration</title>
-      <link>//localhost:1313/docs/configure/</link>
-      <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
-      <guid>//localhost:1313/docs/configure/</guid>
-      <description>Syntax highlighting and menus can be configured via &lt;code&gt;config.toml&lt;/code&gt;.</description>
-    </item>
   </channel>
 </rss>

@@ -2,3 +2,9 @@ baseURL = 'blog.tormod.dev/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-book'
+
+
+[params]
+  BookSection = "*"
+  description = "Tormod's blog"
+  keywords = "Front-end, back-end, full-stack"
