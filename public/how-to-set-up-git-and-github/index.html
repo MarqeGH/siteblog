@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  How to set up Git and Github
+  #
+
+Git is a version control system created by Linus Torvalds, also known as the creator of Linux. He named Git after himself as he sees himself as an &ldquo;egotistical bastard&rdquo;, condensed into the word &ldquo;git&rdquo;.
+Git just allows you to track your system progress so that if something breaks you can always revert back to a previous save. Think of git like a save file in a video game.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="//localhost:1313/how-to-set-up-git-and-github/">
+  <meta property="og:site_name" content="Tormod&#39;s blog">
+  <meta property="og:title" content="How to set up Git and Github">
+  <meta property="og:description" content="How to set up Git and Github # Git is a version control system created by Linus Torvalds, also known as the creator of Linux. He named Git after himself as he sees himself as an “egotistical bastard”, condensed into the word “git”.
+Git just allows you to track your system progress so that if something breaks you can always revert back to a previous save. Think of git like a save file in a video game.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2024-11-18T10:58:08+10:00">
+    <meta property="article:modified_time" content="2024-11-18T10:58:08+10:00">
+<title>How to set up Git and Github | Tormod&#39;s blog</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="//localhost:1313/how-to-set-up-git-and-github/">
+<link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.fd4e7b322100babbe8223a1334d590bc5e7d70f1afe5cf468ca28d2e7d2d2945.js" integrity="sha256-/U57MiEAurvoIjoTNNWQvF59cPGv5c9GjKKNLn0tKUU=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Tormod&#39;s blog</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/how-to-set-up-git-and-github/" class="active">How to set up Git and Github</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/twitter-neon-setup/" class="">Setting up twitter(x) login with NextAuth &#43; neon database storage with Vercel</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/what-is-icu/" class="">What is ICU?</a>
+  
+
+        </li>
+      
+    
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>How to set up Git and Github</h3>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#now-for-adding-github">Now, for adding github:</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="how-to-set-up-git-and-github">
+  How to set up Git and Github
+  <a class="anchor" href="#how-to-set-up-git-and-github">#</a>
+</h1>
+<p>Git is a version control system created by Linus Torvalds, also known as the creator of Linux. He named Git after himself as he sees himself as an &ldquo;egotistical bastard&rdquo;, condensed into the word &ldquo;git&rdquo;.</p>
+<p>Git just allows you to track your system progress so that if something breaks you can always revert back to a previous save. Think of git like a save file in a video game.</p>
+<p>In the project folder, type the following in the command line:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+</span></span></code></pre></div><p>Initialises your project by creating a hidden git folder as well as a <a href="obsidian://open?vault=docs&amp;file=Ignoring%20files%20in%20Git">.gitignore file.</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git status
+</span></span></code></pre></div><p>You can see the status of your committed/uncommitted files with git status. Doesn&rsquo;t &lsquo;do anything&rsquo; but gives you some information about the process.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+</span></span></code></pre></div><p>Creates a snapshot of the current state of the files in your folder to be saved. You can add single files or folders by writing their names instead.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;commit my commit message&#34;</span>
+</span></span></code></pre></div><p>Saves all the snapshotted files added. the &ldquo;-m&rdquo; allows you to write a short message explaining what the changes do. Common culture is to write in the imperative, ex &ldquo;create nextjs app&rdquo; rather than &ldquo;i created a new nextjs app&rdquo;.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git branch -M main
+</span></span></code></pre></div><p>Sets the name of your main branch to &ldquo;main&rdquo;, as is common practice for your main project branch. Branches are used so that you can make separate changes to a project without touching the</p>
+<h3 id="now-for-adding-github">
+  Now, for adding github:
+  <a class="anchor" href="#now-for-adding-github">#</a>
+</h3>
+<p>On your github account, create a new repository for your project.
+Run the following, switching out the link for your project link.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add origin https://github.com/username/new-project.git
+</span></span></code></pre></div><p>Connects your local git to your remote github repository.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push -U origin main
+</span></span></code></pre></div><p>Pushes your most recent commit to the github project with &ldquo;git push&rdquo; and sets the default remote branch(also called upstream branch) to the main branch.</p>
+<p>After this you only need to push with  <code>git push</code></p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        <p><b>All articles</b></p>
+        
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/how-to-set-up-git-and-github/" class="active">How to set up Git and Github</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/twitter-neon-setup/" class="">Setting up twitter(x) login with NextAuth &#43; neon database storage with Vercel</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/what-is-icu/" class="">What is ICU?</a>
+  
+
+        </li>
+      
+    
+      
+    
+  </ul>
+
+
+
+
+
+
+
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#now-for-adding-github">Now, for adding github:</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

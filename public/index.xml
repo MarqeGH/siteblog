@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tormod&#39;s Blog on My New Hugo Site</title>
+    <title>Tormod&#39;s Blog on Tormod&#39;s blog</title>
     <link>//localhost:1313/</link>
-    <description>Recent content in Tormod&#39;s Blog on My New Hugo Site</description>
+    <description>Recent content in Tormod&#39;s Blog on Tormod&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Feb 2019 19:30:08 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2024 10:58:08 +1000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Configuration</title>
-      <link>//localhost:1313/configuration/</link>
-      <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
-      <guid>//localhost:1313/configuration/</guid>
-      <description>Syntax highlighting and menus can be configured via &lt;code&gt;config.toml&lt;/code&gt;.</description>
+      <title>Database operations</title>
+      <link>//localhost:1313/database-operations/</link>
+      <pubDate>Mon, 18 Nov 2024 10:58:08 +1000</pubDate>
+      <guid>//localhost:1313/database-operations/</guid>
+      <description>&lt;h1 id=&#34;database-operations&#34;&gt;&#xA;  Database operations&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#database-operations&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;&#xA;  Overview&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#overview&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Common database operations include Create, Read, Update, and Delete (often referred to as CRUD). These operations are essential for managing data within a database.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-create&#34;&gt;&#xA;  1. Create&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#1-create&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt;: Adding new records to a database.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;How it&amp;rsquo;s done&lt;/strong&gt;: Using SQL &lt;code&gt;INSERT&lt;/code&gt; statements or equivalent methods in NoSQL databases.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Next.js Example&lt;/strong&gt;: Use an API route to handle the creation of new records.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-read&#34;&gt;&#xA;  2. Read&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#2-read&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt;: Retrieving data from the database.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;How it&amp;rsquo;s done&lt;/strong&gt;: Using SQL &lt;code&gt;SELECT&lt;/code&gt; statements or querying methods in NoSQL databases.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Next.js Example&lt;/strong&gt;: Fetch data in &lt;code&gt;getServerSideProps&lt;/code&gt; or &lt;code&gt;getStaticProps&lt;/code&gt; for server-side rendering.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-update&#34;&gt;&#xA;  3. Update&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#3-update&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt;: Modifying existing records in the database.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;How it&amp;rsquo;s done&lt;/strong&gt;: Using SQL &lt;code&gt;UPDATE&lt;/code&gt; statements or update methods in NoSQL databases.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Next.js Example&lt;/strong&gt;: Use an API route to handle updates based on user input.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;4-delete&#34;&gt;&#xA;  4. Delete&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#4-delete&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt;: Removing records from the database.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;How it&amp;rsquo;s done&lt;/strong&gt;: Using SQL &lt;code&gt;DELETE&lt;/code&gt; statements or delete methods in NoSQL databases.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Next.js Example&lt;/strong&gt;: Use an API route to handle deletions.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;example-of-using-database-operations-in-a-nextjs-function&#34;&gt;&#xA;  Example of Using Database Operations in a Next.js Function&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#example-of-using-database-operations-in-a-nextjs-function&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Here’s a simplified example of how you might implement these operations in a Next.js API route:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to set up Git and Github</title>
+      <link>//localhost:1313/how-to-set-up-git-and-github/</link>
+      <pubDate>Mon, 18 Nov 2024 10:58:08 +1000</pubDate>
+      <guid>//localhost:1313/how-to-set-up-git-and-github/</guid>
+      <description>&lt;h1 id=&#34;how-to-set-up-git-and-github&#34;&gt;&#xA;  How to set up Git and Github&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#how-to-set-up-git-and-github&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Git is a version control system created by Linus Torvalds, also known as the creator of Linux. He named Git after himself as he sees himself as an &amp;ldquo;egotistical bastard&amp;rdquo;, condensed into the word &amp;ldquo;git&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Git just allows you to track your system progress so that if something breaks you can always revert back to a previous save. Think of git like a save file in a video game.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Setting up twitter(x) login with NextAuth &#43; neon database storage with Vercel</title>
+      <link>//localhost:1313/twitter-neon-setup/</link>
+      <pubDate>Mon, 18 Nov 2024 10:58:08 +1000</pubDate>
+      <guid>//localhost:1313/twitter-neon-setup/</guid>
+      <description>&lt;h1 id=&#34;setting-up-twitterx-login-with-nextauth--neon-database-storage-with-vercel--a-small-message-widget&#34;&gt;&#xA;  Setting up twitter(x) login with NextAuth + Neon database storage with Vercel + a small message widget&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#setting-up-twitterx-login-with-nextauth--neon-database-storage-with-vercel--a-small-message-widget&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;setting-up-nextauth&#34;&gt;&#xA;  Setting up NextAuth&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#setting-up-nextauth&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;To implement NextAuth on your website, first install Next-Auth&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install next-auth&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&amp;mdash; Error message START, move to error message troubleshooting if encountered &amp;mdash;&lt;/strong&gt;&#xA;If you&amp;rsquo;re having problems here, it might be because your ICU4C library is outdated.&#xA;&lt;a href=&#34;//localhost:1313/what-is-icu&#34;&gt;What is ICU&lt;/a&gt; (bonus info)&lt;/p&gt;&#xA;&lt;p&gt;To fix this, reinstall ICU&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is ICU?</title>
+      <link>//localhost:1313/what-is-icu/</link>
+      <pubDate>Thu, 07 Nov 2024 18:59:08 +1000</pubDate>
+      <guid>//localhost:1313/what-is-icu/</guid>
+      <description>&lt;h1 id=&#34;what-is-icu&#34;&gt;&#xA;  What is ICU?&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-icu&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Stands for International Components for Unicode&lt;/li&gt;&#xA;&lt;li&gt;A set of libraries supporting localisation and internationalisation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ICU does a number of things:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Text handling and Unicode Support&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unicode is a standard encoding system for all the languages in the world. 倪好!&lt;/li&gt;&#xA;&lt;li&gt;Allows software to process characters correctly regardless of language, ex. for applications that need to handle multilingual text.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;String Comparison and Sorting&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Different languages have rules for alphabetising text, and ICU provides functions that sort text according to regional language rules (collation) to make sure words are ordered correctly in each language.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
 </rss>

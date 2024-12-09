@@ -1,6 +1,6 @@
 baseURL = 'blog.tormod.dev/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Tormod's blog"
 theme = 'hugo-book'
 
 
