@@ -1,6 +1,6 @@
 ---
 title: 'How to set up Git and Github'
-date: 2024-11-18T10:58:08+10:00
+date: 2024-11-21T09:58:08+10:00
 draft: false
 ---
 # How to set up Git and Github
