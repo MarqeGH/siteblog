@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>blog.tormod.dev/database-operations/</loc>
+    <loc>//localhost:1313/database-operations/</loc>
     <lastmod>2024-11-28T11:59:08+10:00</lastmod>
   </url><url>
-    <loc>blog.tormod.dev/how-to-set-up-git-and-github/</loc>
+    <loc>//localhost:1313/how-to-set-up-git-and-github/</loc>
     <lastmod>2024-11-21T09:58:08+10:00</lastmod>
   </url><url>
-    <loc>blog.tormod.dev/twitter-neon-setup/</loc>
+    <loc>//localhost:1313/twitter-neon-setup/</loc>
     <lastmod>2024-11-18T10:58:08+10:00</lastmod>
   </url><url>
-    <loc>blog.tormod.dev/what-is-icu/</loc>
+    <loc>//localhost:1313/what-is-icu/</loc>
     <lastmod>2024-11-07T18:59:08+10:00</lastmod>
   </url><url>
-    <loc>blog.tormod.dev/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2018-11-28T15:14:39+10:00</lastmod>
   </url><url>
-    <loc>blog.tormod.dev/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>blog.tormod.dev/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>
